@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Open+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: black;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.titulo_destaque {
+  color: #22D4FD;
+}
+
+.apresentacao {
+  margin: 5% 15% 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 24px;
+  font-family: 'Assistant', serif;
+}
+
+.apresentacao__links {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.apresentacao__links__botao {
+  width: 280px;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  background-color: #22D4FD;
+  border-radius: 16px;
+  font-size: 24px;
+  font-family: 'Assistant', serif;
+  font-weight: 600;
+}
